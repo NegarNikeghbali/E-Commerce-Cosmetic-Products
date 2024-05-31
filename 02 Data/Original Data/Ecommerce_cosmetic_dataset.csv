@@ -1,0 +1,27 @@
+Column Name,Data Type,Quantitative/Qualitative,Discrete/Continuous/Nominal/Ordinal,Time Invariant/Variant,,Column,Action,Count
+website,String,Qualitative,Nominal,Time Invariant,,type,NaN replaced with mode,2681
+country,String,Qualitative,Nominal,Time Invariant,,color,Removed,
+category,String,Qualitative,Nominal,Time Invariant,,size,Removed,
+subcategory,String,Qualitative,Nominal,Time Invariant,,rating,"2067 NaN's replaced with mean, 
+57 Values > 5 replaced with 5;
+ replace(',', '.'); 
+replace(' out of 5 stars', '')
+From str into float
+ replace(',' into'.'); 
+2 replace(' out of 5 stars' into'')
+From str into float",2126
+price,Float,Quantitative,Continuous,Time Invariant,,noofratings,"733 replace 'New to Amazon', 'No reviews', 'Write A Review' with 0
+459 replace NaN’s with 0
+replace(','into '')
+374 replace('ratings' into '')  
+Renamed ‘noofratings) into ‘count of rating’
+From str into int
+459 replace NaN’s with 0
+replace(','into '')
+374 replace('ratings' into '')  
+Renamed ‘noofratings) into ‘count of rating’",1566
+brand,String,Qualitative,Nominal,Time Invariant,,price,NaN replaced with mean,317
+form,String,Qualitative,Nominal,Time Invariant,,,,
+type,String,Qualitative,Nominal,Time Invariant,,,,
+rating,Float,Quantitative,Continuous,Time Invariant,,,,
+count of ratings,Integer,Quantitative,Discrete,Time Invariant,,,,
